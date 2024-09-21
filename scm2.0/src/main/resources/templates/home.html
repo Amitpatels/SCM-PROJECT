@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        margin: auto;
+        width: 50%;
+        padding: 30px;
+        background: #eeb0e4
+    }
+</style>
+
+<body>
+    <div class="container">
+    <h1>Employee Onbarding in USA </h1>
+    <h1 data-th-text="${name}"></h1>
+    <p>Package offer : <span th-text="${AnnualPackage}"></span></p>
+    <p>Accept the offer by clicking on link : <span data-th-text="${AcceptOffer}"></span></p>
+    <a data-th-href="${AcceptOffer}">Accept</a>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Cupiditate dolore nam voluptatum ea pariatur, sunt quasi esse, 
+        libero eaque, ratione inventore accusamus qui recusandae omnis iusto distinctio. 
+        Odit, ad dicta?
+    </p>
+    </div>
+</body>
+</html>
